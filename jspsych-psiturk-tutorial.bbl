@@ -1,0 +1,201 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{%
+Buhrmester%
+, Kwang%
+\BCBL{}\ \BBA{} Gosling%
+}{%
+Buhrmester%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2011}}%
+}]{%
+buhrmester2011amazon}%
+\APACinsertmetastar{%
+buhrmester2011amazon}%
+Buhrmester, M.%
+, Kwang, T.%
+\BCBL{}\ \BBA{} Gosling, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{{A}mazon's {M}echanical {T}urk: A new source of
+  inexpensive, yet high-quality, data?}{{A}mazon's {M}echanical {T}urk: A new
+  source of inexpensive, yet high-quality, data?}\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Perspectives on Psychological Science}{6}{1}{3--5}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Coenen%
+, Markant%
+, Martin%
+\BCBL{}\ \BBA{} McDonnell%
+}{%
+Coenen%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+coenen2013using}%
+\APACinsertmetastar{%
+coenen2013using}%
+Coenen, A.%
+, Markant, D.%
+, Martin, J.%
+\BCBL{}\ \BBA{} McDonnell, J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Using Mechanical Turk and PsiTurk for Dynamic Web
+  Experiments}{Using mechanical turk and psiturk for dynamic web
+  experiments}.\BBCQ{}
+\newblock
+\BIn{} M.~Knauff, M.~Pauen, N.~Sebanz\BCBL{}\ \BBA{} I.~Wachsmuth\ (\BEDS),
+  \APACrefbtitle{Proceedings of the 35th Annual Conference of the Cognitive
+  Science Society}{Proceedings of the 35th annual conference of the cognitive
+  science society}\ (\BPGS\ 22--23).
+\newblock
+\APACaddressPublisher{Austin, TX}{Cognitive Science Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Crump%
+, McDonnell%
+\BCBL{}\ \BBA{} Gureckis%
+}{%
+Crump%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+crump2013evaluating}%
+\APACinsertmetastar{%
+crump2013evaluating}%
+Crump, M.%
+, McDonnell, J.%
+\BCBL{}\ \BBA{} Gureckis, T.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Evaluating {A}mazon's {M}echanical {T}urk as a tool for
+  experimental behavioral research}{Evaluating {A}mazon's {M}echanical {T}urk
+  as a tool for experimental behavioral research}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{PLoS ONE}{8}{3}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Goodman%
+, Cryder%
+\BCBL{}\ \BBA{} Cheema%
+}{%
+Goodman%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2013}}%
+}]{%
+goodman2013data}%
+\APACinsertmetastar{%
+goodman2013data}%
+Goodman, J.%
+, Cryder, C.%
+\BCBL{}\ \BBA{} Cheema, A.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Data collection in a flat world: The strengths and
+  weaknesses of {M}echanical {T}urk samples}{Data collection in a flat world:
+  The strengths and weaknesses of {M}echanical {T}urk samples}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Journal of Behavioral Decision
+  Making}{26}{1}{213--224}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Mason%
+\ \BBA{} Suri%
+}{%
+Mason%
+\ \BBA{} Suri%
+}{%
+{\protect\APACyear{2011}}%
+}]{%
+mason2011use}%
+\APACinsertmetastar{%
+mason2011use}%
+Mason, W.%
+\BCBT{}\ \BBA{} Suri, S.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{How to use Mechanical Turk for cognitive science
+  research}{How to use mechanical turk for cognitive science research}.\BBCQ{}
+\newblock
+\BIn{} L.~Carlson, C.~H\"{o}lscher\BCBL{}\ \BBA{} T.~Shipley\ (\BEDS),
+  \APACrefbtitle{Proceedings of the 33rd Annual Conference of the Cognitive
+  Science Society}{Proceedings of the 33rd annual conference of the cognitive
+  science society}\ (\BPGS\ 66--67).
+\newblock
+\APACaddressPublisher{Austin, TX}{Cognitive Science Society}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Paolacci%
+, Chandler%
+\BCBL{}\ \BBA{} Ipeirotis%
+}{%
+Paolacci%
+\ \protect\BOthers{.}}{%
+{\protect\APACyear{2010}}%
+}]{%
+paolacci2010running}%
+\APACinsertmetastar{%
+paolacci2010running}%
+Paolacci, G.%
+, Chandler, J.%
+\BCBL{}\ \BBA{} Ipeirotis, P.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Running experiments on {A}mazon {M}echanical
+  {T}urk}{Running experiments on {A}mazon {M}echanical {T}urk}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Judgment and Decision Making}{5}{5}{411--419}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Zwann%
+\ \BBA{} Pechler%
+}{%
+Zwann%
+\ \BBA{} Pechler%
+}{%
+{\protect\APACyear{2012}}%
+}]{%
+zwann2012revisiting}%
+\APACinsertmetastar{%
+zwann2012revisiting}%
+Zwann, R.%
+\BCBT{}\ \BBA{} Pechler, D.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{Revisiting mental simulation in language comprehension:
+  six replication attempts}{Revisiting mental simulation in language
+  comprehension: six replication attempts}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{PLoS ONE}{7}{3}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
