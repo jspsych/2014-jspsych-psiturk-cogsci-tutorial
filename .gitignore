@@ -214,3 +214,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 .Rproj.user
+
+/jspsych-psiturk-tutorial.aux
+/jspsych-psiturk-tutorial.synctex.gz
