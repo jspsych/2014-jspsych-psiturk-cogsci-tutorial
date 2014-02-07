@@ -10,14 +10,18 @@
 \usepackage{apacite}
 
 
-\title{Online Experiments using jsPsych, PsiTurk, and Amazon Mechanical Turk}
+\title{Online Experiments using jsPsych, psiTurk, and Amazon Mechanical Turk}
  
 \author{{\large \bf Joshua R. de Leeuw (jodeleeu@indiana.edu)} \\
   Department of Psychological and Brain Sciences,
   Program in Cognitive Science,
   Indiana Univeristy, \\
   Bloomington, IN 47405
-  \AND {\large \bf Doug Markant (doug.markant@nyu.edu)} \\
+  \AND {\large \bf Anna Coenen (ac4066@nyu.edu)} \\
+ {\large \bf Doug Markant (doug.markant@nyu.edu)}\\
+  {\large \bf Jay B. Martin (jbmartin@nyu.edu)} \\
+    {\large \bf John V. McDonnell (jmcdon10@gmail.com)} \\
+  {\large \bf Alexander S. Rich (asr443@nyu.edu} \\
   {\large \bf Todd M. Gureckis (todd.gureckis@nyu.edu)} \\
   Department of Psychology,
   New York Univeristy \\
@@ -37,7 +41,7 @@ Amazon Mechanical Turk; Online Experiments; jsPsych; psiTurk; Open Science
 \section{Objectives}
 
 This half-day tutorial will cover how to build and deploy online experiments
-using jsPsych, PsiTurk, and Amazon Mechanical Turk (AMT). jsPsych is an open-source JavaScript library that facilitates building behavioral experiments in a web browser. PsiTurk is an open-source Python platform that simplifies the process of running an experiment using AMT. Together, these two software packages reduce the complexity of setting up an online experiment on AMT, enabling researchers with minimal software programming experience to take advantage of online experiments. By the end of the tutorial, participants will have gained hands-on experience in programming and deploying a basic behavioral experiment on AMT.
+using jsPsych, PsiTurk, and Amazon Mechanical Turk (AMT). jsPsych is an open-source JavaScript library that facilitates building behavioral experiments in a web browser. psiTurk is an open-source Python platform that simplifies the process of running an experiment using AMT. Together, these two software packages reduce the complexity of setting up an online experiment on AMT, enabling researchers with minimal software programming experience to take advantage of online experiments. By the end of the tutorial, participants will have gained hands-on experience in programming and deploying a basic behavioral experiment on AMT.
 
 Researchers in the Cognitive Science community have been using AMT, and online experiments in general, for several years, but the learning curve can be steep for researchers who are not familiar with web development. While some tools exist for certain kinds of simple experiments (e.g. questionnaires), programming more complex experiments with dynamic elements requires knowledge of web-oriented programming. The tools covered in this tutorial simplify the process of programming online experiments, opening up the possibility of conducting online experiments to more researchers in the cognitive science community.
 
@@ -45,7 +49,7 @@ Workshops covering AMT \cite{mason2011use} and PsiTurk \cite{coenen2013using} ha
 
 \section{Outline of the Tutorial}
 
-Participants at the tutorial will be invited to work hands-on with the creation of a simple online experiment that demonstrates the principles behind jsPsych and PsiTurk. Presenters will use slides and live demonstrations to explain the material. As there are several presenters, there will be opportunities for presenters who are not actively presenting to provide one-on-one assistance as needed. The tutorial will be organized in four parts. The first part will briefly cover some of the advantages and disadvantages of online data collection. The second part will show how to build an experiment that runs in a web browser using jsPsych. The third part will show how to take the jsPsych-based experiment and connect to AMT with PsiTurk to collect data. Finally, we will conclude with a brief discussion on how online experiments built with common tools can facilitate open science, with greater transparency and replicability of results.
+Participants at the tutorial will be invited to work hands-on with the creation of a simple online experiment that demonstrates the principles behind jsPsych and psiTurk. Presenters will use slides and live demonstrations to explain the material. As there are several presenters, there will be opportunities for presenters who are not actively presenting to provide one-on-one assistance as needed. The tutorial will be organized in four parts. The first part will briefly cover some of the advantages and disadvantages of online data collection. The second part will show how to build an experiment that runs in a web browser using jsPsych. The third part will show how to take the jsPsych-based experiment and connect to AMT with PsiTurk to collect data. Finally, we will conclude with a brief discussion on how online experiments built with common tools can facilitate open science, with greater transparency and replicability of results.
 
 \subsection{Part 1: What does the research say about online data collection?}
 
@@ -61,12 +65,25 @@ jsPsych can also be extended by writing new plugins. The structure of a plugin i
 
 The tutorial will cover how to build an experiment using existing jsPsych plugins. We will show how the same plugin can be reused for different kinds of experiments, to highlight the flexibility of the library. We will give a short overview of how to write new plugins for jsPsych, but this will not be the main focus of the tutorial.
 
-\subsection{Part 3: Launching an experiment on AMT with PsiTurk}
+\subsection{Part 3: Launching an experiment on AMT with psiTurk}
 
+psiTurk is an open source framework for running experiments on Amazon Mechanical Turk.  One of the major hurdles to running online experiments
+is the need for the installation and administration of web server (e.g., Apache).  psiTurk obviates this requirement by allowing people to run experiments
+on any computer they choose including their personal laptop or office computer.  In addition, psiTurk simplifies many aspects of running experiments
+on Mechanical Turk.  For example, psiTurk automatically assigns participants to conditions in a random fashion, it allows researchers to quickly
+pay and assign bonuses to workers with a few simple commands.  psiTurk tracks when users do other activities within their browser or computer
+and provides this data in an easy to analyze database.  These and other features will be covered in detail in our tutorial.  While psiTurk runs best
+on Unix-based operating systems, we will show participants how to use free tools online to run psiTurk remotely.
 
 \subsection{Part 4: Open science with PsiTurk's Experiment Exchange}
 
-
+One of the major goals of psiTurk is to enable frictionless replicability of research studies.  Currently, researchers using AMT to conduct
+experiment all use a different set of script or tools.  As a result, sharing the code for an experiment with another researcher can be fairly complex
+and require lots of documentation.  psiTurk aims to provide a powerful and general set of tools which will encourage researchers to adopt
+a "standard" way of writing online experiments.  This will increase the replicability of findings since it will be easier to download and run
+another researcher's experiment.  psiTurk facilitates this via and "experiment exchange" which enables researchers to share their psiTurk
+compatible experiments with one another.  Ultimately, it is possible with psiTurk to download anther persons experiment and start collecting
+online data in that experiment within a few minutes.
 
 \section{Audience}
 
