@@ -41,29 +41,29 @@ Amazon Mechanical Turk; Online Experiments; jsPsych; psiTurk; Open Science
 \section{Objectives}
 
 This half-day tutorial will cover how to build and deploy online experiments
-using jsPsych, PsiTurk, and Amazon Mechanical Turk (AMT). jsPsych is an open-source JavaScript library that facilitates building behavioral experiments in a web browser. psiTurk is an open-source Python platform that simplifies the process of running an experiment using AMT. Together, these two software packages reduce the complexity of setting up an online experiment on AMT, enabling researchers with minimal software programming experience to take advantage of online experiments. By the end of the tutorial, participants will have gained hands-on experience in programming and deploying a basic behavioral experiment on AMT.
+using jsPsych, psiTurk, and Amazon Mechanical Turk (AMT). jsPsych is an open-source JavaScript library that facilitates building behavioral experiments in a web browser. psiTurk is an open-source Python platform that simplifies the process of running an experiment using AMT. Together, these two software packages reduce the complexity of setting up an online experiment on AMT, enabling researchers with little software programming experience to take advantage of online experiments. By the end of the tutorial, participants will have gained hands-on experience in programming and deploying a basic behavioral experiment on AMT.
 
 Researchers in the Cognitive Science community have been using AMT, and online experiments in general, for several years, but the learning curve can be steep for researchers who are not familiar with web development. While some tools exist for certain kinds of simple experiments (e.g. questionnaires), programming more complex experiments with dynamic elements requires knowledge of web-oriented programming. The tools covered in this tutorial simplify the process of programming online experiments, opening up the possibility of conducting online experiments to more researchers in the cognitive science community.
 
-Workshops covering AMT \cite{mason2011use} and PsiTurk \cite{coenen2013using} have been offered at previous Cognitive Science Society meetings. This tutorial goes one step further by covering jsPsych as well. Together, these tools cover the entire process of assembling and running an online experiment.
+Workshops covering AMT \cite{mason2011use} and psiTurk \cite{coenen2013using} have been offered at previous Cognitive Science Society meetings. This tutorial goes one step further by covering jsPsych as well. Together, these tools cover the entire process of assembling and running an online experiment.
 
 \section{Outline of the Tutorial}
 
-Participants at the tutorial will be invited to work hands-on with the creation of a simple online experiment that demonstrates the principles behind jsPsych and psiTurk. Presenters will use slides and live demonstrations to explain the material. As there are several presenters, there will be opportunities for presenters who are not actively presenting to provide one-on-one assistance as needed. The tutorial will be organized in four parts. The first part will briefly cover some of the advantages and disadvantages of online data collection. The second part will show how to build an experiment that runs in a web browser using jsPsych. The third part will show how to take the jsPsych-based experiment and connect to AMT with PsiTurk to collect data. Finally, we will conclude with a brief discussion on how online experiments built with common tools can facilitate open science, with greater transparency and replicability of results.
+Participants at the tutorial will be invited to work hands-on with the creation of a simple online experiment that demonstrates the principles behind jsPsych and psiTurk. The tutorial will be organized in four parts.
 
 \subsection{Part 1: What does the research say about online data collection?}
 
-Workshops at previous Cognitive Science Society meetings have covered the use of AMT in detail. This section of the tutorial will be a brief introduction to some of the issues surrounding AMT and online experiments, but the focus of the tutorial will be parts 2 and 3.
+This section of the tutorial will be a brief introduction to some of the issues surrounding AMT and online experiments, but the focus of the tutorial will be parts 2 and 3.
 
 Online experiments are appealing for a number of reasons: faster data collection, lower costs, access to a different subject pool, and improved anonymity of subjects and experimenters are some of the most commonly named. However, online experiments give up some of the control of a laboratory environment, leading to concerns about the quality of the data. There are now several published results that compare AMT experiments to their laboratory counterparts \cite{paolacci2010running, buhrmester2011amazon, zwann2012revisiting, crump2013evaluating, goodman2013data}. In the tutorial, we will summarize these findings and their implications for running AMT based experiments. 
   
 \subsection{Part 2: Assembling an experiment with jsPsych}
 
-jsPsych is an open-source JavaScript library that simplifies the process of writing a web-based experiment. The library is designed around the concept of a modular framework. There is a core library which serves as the engine to run experiments, and a set of plugins, each of which defines a different kind of trial that a subject in an experiment might do. For example, there are plugins for displaying instructions, showing stimuli and collecting responses via the keyboard, and displaying a consent form. Assembling an experiment with jsPsych involves putting together the different plugins that are needed and specifying the parameters of those plugins (such as what stimuli to show and how long to show them). There are currently 15 different plugins available, with more in development. These plugins can be assembled to create many different behavioral tasks that are of interest to cognitive scientists.
+jsPsych (http://www.jspsych.org) is an open-source JavaScript library that simplifies the process of writing a web-browser-based experiment. jsPsych contains a core library, which serves as the engine to run experiments, and a set of plugins, each of which defines a different kind of trial that a subject in an experiment might do. For example, there are plugins for displaying instructions, showing stimuli and collecting responses via the keyboard, and displaying a consent form. Assembling an experiment with jsPsych involves putting together the different plugins that are needed and specifying the parameters of those plugins (such as what stimuli to show and how long to show them). These plugins can be assembled to create many different behavioral tasks that are of interest to cognitive scientists.
 
-jsPsych can also be extended by writing new plugins. The structure of a plugin is flexible enough to permit most kinds of computer-based tasks. Because plugins are individual, stand-alone components of the library, each plugin can be combined with all of the others. As researchers use and extend jsPsych to cover new kinds of tasks, the library grows making it easier for other researchers to create new experiments.
+jsPsych can also be extended by writing new plugins. The structure of a plugin is flexible enough to permit most kinds of computer-based tasks. Because plugins are individual, stand-alone components of the library, each plugin can be combined with any of the others. As researchers use and extend jsPsych to cover new kinds of tasks, the library grows making it easier for other researchers to create new experiments.
 
-The tutorial will cover how to build an experiment using existing jsPsych plugins. We will show how the same plugin can be reused for different kinds of experiments, to highlight the flexibility of the library. We will give a short overview of how to write new plugins for jsPsych, but this will not be the main focus of the tutorial.
+This part of the tutorial will cover how to build an experiment using existing jsPsych plugins. We will show how the same plugin can be reused for different kinds of experiments, to highlight the flexibility of the library. We will give a short overview of how to write new plugins for jsPsych, but this will not be the main focus of the tutorial.
 
 \subsection{Part 3: Launching an experiment on AMT with psiTurk}
 
@@ -72,10 +72,9 @@ is the need for the installation and administration of web server (e.g., Apache)
 on any computer they choose including their personal laptop or office computer.  In addition, psiTurk simplifies many aspects of running experiments
 on Mechanical Turk.  For example, psiTurk automatically assigns participants to conditions in a random fashion, it allows researchers to quickly
 pay and assign bonuses to workers with a few simple commands, and tracks when users do other activities within their browser or computer
-and provides this data in an easy to analyze database.  These and other features will be covered in detail in our tutorial.  While psiTurk runs best
-on Unix-based operating systems, we will show participants how to use free tools online to run psiTurk on remote systems.
+and provides this data in an easy to analyze database.   These and other features will be covered in detail in our tutorial. Finally, we will show how jsPsych and psiTurk can be combined to take full advantage of both software packages.
 
-\subsection{Part 4: Advancing open science with PsiTurk's Experiment Exchange}
+\subsection{Part 4: Advancing open science with psiTurk's Experiment Exchange}
 
 One of the major goals of psiTurk is to enable frictionless replicability of research studies.  Currently, researchers using AMT to conduct
 experiments all use a different set of script or tools.  As a result, sharing the code for an experiment with another researcher can be fairly complex
@@ -87,14 +86,13 @@ and start collecting online data in that experiment within a few minutes.
 
 \section{Audience}
 
-This tutorial is aimed at researchers who are interested in running online experiments and would like to gain experience with tools that will aid in that effort. The hands-on portion of the tutorial will be aimed at people who have some basic familiarity with web programming, though we will provide materials to help novices get up and running. 
+This tutorial is aimed at researchers who are interested in conducting online experiments and would like to gain experience with tools that will simplify the complexity of developing and running such experiments. As the tools being covered are quite flexible, they will be useful to researchers who are interested in collecting behavioral data in a wide range of areas. The hands-on portion of the tutorial will be aimed at people who have some basic familiarity with web programming, though we will provide materials to help novices get up and running. 
 
-Participants who wish to work hands-on during the tutorial should bring a laptop. jsPsych will work with any up-to-date version of the major web browsers (Chrome, Firefox, Safari, Internet Explorer), and only requires a basic text editor that can save HTML files (e.g. Notepad for Windows, TextMate for OSX). PsiTurk works on UNIX-based platforms only (OSX, Linux). [Will we be able to cover cloud-based PsiTurk stuff- might be particularly useful for windows people?]
+Participants who wish to work hands-on during the tutorial should bring a laptop. jsPsych will work with any up-to-date version of the major web browsers (Chrome, Firefox, Safari, Internet Explorer), and only requires a basic text editor that can save HTML files (e.g. Notepad++ for Windows, TextMate for OSX). psiTurk works best on Unix-based platforms (OSX, Linux), but we will show non-Unix users how to use free tools online to run psiTurk on a remote system.
 
 \section{Presenters}
 
-The presenters have all used online experiments and AMT extensively in their research. Josh de Leeuw is the developer of jsPsych. [PsiTurk stuff].
-
+The presenters have all used online experiments and AMT extensively in their research. All of them are authors of either psiTurk or jsPsych. As there are several presenters, there will be opportunities for presenters who are not actively presenting to provide one-on-one assistance as needed. 
 
 \bibliographystyle{apacite}
 
