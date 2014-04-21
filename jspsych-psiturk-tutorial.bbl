@@ -89,6 +89,30 @@ Crump, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem[\protect\citeauthoryear{%
+{de Leeuw}%
+}{%
+{de Leeuw}%
+}{%
+{\protect\APACyear{2014}}%
+}]{%
+deleeuw2014jspsych}%
+\APACinsertmetastar{%
+deleeuw2014jspsych}%
+{de Leeuw}, J.%
+%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\BBOQ{}\APACrefatitle{js{P}sych: {A} {J}ava{S}cript library for creating
+  behavioral experiments in a {W}eb browser}{js{P}sych: {A} {J}ava{S}cript
+  library for creating behavioral experiments in a {W}eb browser}.\BBCQ{}
+\newblock
+\APACjournalVolNumPages{Behavior Research Methods}{}{}{Advance online
+  publication}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
 Goodman%
 , Cryder%
 \BCBL{}\ \BBA{} Cheema%
